@@ -1,0 +1,105 @@
+.M1 {
+    display: flex;
+    justify-content: space-around;
+     height: 100vh; /*Full viewport height */
+    padding: 0 20px; /* Padding around the sides */
+    position: absolute;
+    top: -145px;
+    left: 132px;
+    right: 427px;
+    margin-top: 88px;
+    z-index: 10; /* Ensure it's above the canvas */
+    pointer-events: none; Allows interaction with canvas behind
+}
+.lefts1{
+width: 100%;
+font-size: 4rem;
+font-family: 'Poppins', sans-serif;
+margin:auto;   
+z-index: 10;
+/* pointer-events: auto; */
+}
+/* .lefts1 div d1{
+    width:100%;
+    color: white;
+}
+.lefts1 div d2{
+    width: 100px;
+    color: #94a3b8;
+} */
+.rights1 {
+display: flex;
+margin: auto;
+align-items: center; /* Center image vertically */
+justify-content: center; /* Center image horizontally */
+margin-bottom: 242px;
+padding-left: 100px;
+padding-right: 40px;
+opacity:0.7;
+z-index: 8;
+/* pointer-events: auto; */
+}
+.M2{
+    display: flex;
+    justify-content: space-around;
+     height: 100vh; /*Full viewport height */
+    padding: 0 20px; /* Padding around the sides */
+    position: absolute;
+    top: 0;
+    left: 717px;
+    right: 0;
+    margin-top: 88px;
+    z-index: 10; /* Ensure it's above the canvas */
+    color: white; /* White text color */
+    pointer-events: none; /* Allows interaction with canvas behind */
+}
+.rights1 img {
+    display: flex;
+    width: 65%;
+    margin-left: 62px;
+    display: block;
+    margin-top: 28px;
+    z-index: 10;
+    border-radius: 25px;
+    border: #030712 solid 4px;
+    box-shadow: 5px 5px 20px #075985;
+    /* pointer-events: auto; */
+}
+#element{
+    color: #030712;
+    text-shadow: 1px 1px 1px #0759858a;
+}
+.SocialMedia ul li a :hover{
+    fill: #075985;
+}
+#A1{
+    width:50%;
+    height: 50%;
+    text-align: ;
+    top: 10px;
+    font-size: 1.6rem;
+    font-family: "Nunito", sans-serif;
+    margin-left: 6rem;
+    color: rgba(255, 255, 255, 0.813);
+}
+#A1 h1{
+    text-align: center;
+}
+#A1 p{
+    width: 90%;
+    /* height: 50vh; */
+}
+.TechST{
+    list-style: none;
+    display: inline-flex;
+    font-size: 1.8rem;
+    margin-top: 15px;
+    gap: 20px;
+}
+.A2{
+    display: flex;
+    top: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
