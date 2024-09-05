@@ -87,45 +87,62 @@ nav ul li a.active {
 }
 @media screen and (max-width: 480px) {
     #header {
-        width: 100%;
-        height: 100vh;
+        width: 200%;
+        height: 120px;
     }
     nav {
         position: relative;
         padding: 0 10px;
         height: 121px;
-        width: 27rem;
     }
     nav ul {
         margin-bottom: 18px;
-        height: 3rem;
-        width: 16.8rem;
+        height: 46px;
+        width: 527px;
         gap: 10px;
     }
-
     nav ul li a {
-        padding: 9px 5px 5px 5px;
-        font-size: 12px;
+        padding: 10px 9px 8px 8px;
+        font-size: 20px;
         text-align: center;
-        height: 36px;
-        width: 76px;
+        height: 46px;
+        width: 120px;
     }
     #logo {
-        width: 8rem;
-        height: 7rem;
+        width: 130px;
+        height: 102px;
     }
     .M1{
-        top: 0px;
-        left: 0px;
-        width: 13.5rem;
+        top: 25px;
+        left: 32px
     }
-    .lefts1 {
-        font-size: 2rem;
-        padding-bottom: 20rem;
-    }
-    .M2{
-        
-    }
+           /* Contact Card Styling */
+           .contact-card {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000; /* Ensure it's above other content */
+        }
+        .close-button {
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #8893a9;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Ensure the Matter.js canvas is beneath the card */
+        canvas {
+            z-index: 1;
+        }
     
 }
         #wrapper-canvas {
@@ -137,10 +154,10 @@ nav ul li a.active {
     </style>
     <div id="header" style="z-index: 50px;">
         <div class="container">
-            <nav>
+            <nav style="width:101% ; position: fixed;">
                 <img id="logo" src="img/5245533__1_-removebg-preview.svg" alt="">
                 <ul id="Navigation">
-                    <li><a href="#section1">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a class="About" href="#section2">About
                         <div class="scroll-down"></div>
                     </a></li>
